@@ -1,0 +1,1 @@
+<#assign payl1="ssti"><#assign payl2="test">${payl1}${payl2}
